@@ -5,16 +5,123 @@
    ========================================================================== */
 
 
+body {
+	font-family: 'ff-meta-serif-web-pro', serif;
+	font-size: 21px;
+	line-height: 30px;
+	font-weight: 500;
+	color: #282828;
+}
 
+nav, footer {
+	background-color: #eee;
+}
 
+footer {
+	padding: 20px 0;
+}
 
+.jumbotron h1 {
+	font-family: 'brandon-grotesque', sans-serif;
+	font-weight: 900;
+	font-size: 96px;
+}
 
+h1 {
+	font-family: 'brandon-grotesque', sans-serif;
+	font-weight: 900;
+	font-size: 63px;
+}
 
+.jumbotron {
+	background-color: #fff;
+	display: block;
+	height: 100vh;
+	width: auto;
+}
 
+.navbar-brand {
+	text-transform: uppercase;
+	font-size: 15px;
+	letter-spacing: 6px;
+}
 
+.btn-custom {
+	border: 4px solid #282828;
+	padding: 18px;
+	color: #282828;
+	transition: all .5s ease;
+}
 
+.btn-custom:hover {
+	background-color: #282828;
+	color: #fff;
+	text-decoration: none;
+}
 
+nav li a, h2 {
+	text-transform: uppercase;
+	font-size: 15px;
+	letter-spacing: 6px;
+	font-weight: 700;
+	line-height: 31px;
+	color: #aaa;
+}
 
+nav li a {
+	color: #aaa;
+}
+
+nav span.icon-bar {
+	background-color: #282828;
+}
+
+.showcase p{
+	width: 80%;
+}
+
+.showcase {
+	/*margin-bottom: 15%;*/
+}
+
+.portfolio-main {
+	height: 100vh;
+}
+
+.portfolio-main section {
+	padding-top: 5%;
+}
+
+.portfolio-main-item {
+	background-color: #ccc;
+	height: 90vh;
+	border: 5px dashed #aaa;
+}
+
+.margin-fix {
+	margin-bottom: 0px;
+}
+
+.about {
+	margin-bottom: 10%;
+}
+
+.about-jumbotron {
+	background: url('../img/alex.png') bottom fixed;
+	background-color: transparent;
+	height: 70vh;
+	padding-top: 50px;
+	padding-bottom: 0px;
+}
+
+.main-jumbotron {
+	padding-top: 15%;
+}
+
+.contact {
+	padding-top: 150px;
+	height: 90vh;
+}
 
 
 
