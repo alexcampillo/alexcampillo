@@ -70,6 +70,12 @@ nav li a, h2 {
 
 nav li a {
 	color: #aaa;
+	font-family: 'brandon-grotesque', sans-serif;
+	transition: all .5s ease;
+}
+
+nav li a:hover {
+	color: #fff;
 }
 
 nav span.icon-bar {
