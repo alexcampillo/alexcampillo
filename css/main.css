@@ -91,7 +91,7 @@ nav span.icon-bar {
 }
 
 .portfolio-main {
-	height: 100vh;
+	/*height: 100vh;*/
 }
 
 .portfolio-main section {
@@ -99,9 +99,10 @@ nav span.icon-bar {
 }
 
 .portfolio-main-item {
-	background-color: #ccc;
-	height: 90vh;
-	border: 5px dashed #aaa;
+	/*background-color: #ccc;*/
+	height: 100vh;
+	/*border: 5px dashed #aaa;*/
+	padding: 5%;
 }
 
 .margin-fix {
