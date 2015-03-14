@@ -107,7 +107,7 @@ nav span.icon-bar {
 	margin-bottom: 0px;
 }
 
-.about, .adventures {
+.about, .adventures, .portfolio {
 	margin-bottom: 10%;
 	margin-top: 50px;
 }
@@ -127,6 +127,12 @@ nav span.icon-bar {
 .contact {
 	padding-top: 100px;
 	height: 90vh;
+}
+
+.card {
+	height: 320px;
+	background-color: #ccc;
+	box-shadow: 1px 1px 3px #aaa;
 }
 
 footer {
