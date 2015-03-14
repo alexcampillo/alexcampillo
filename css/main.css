@@ -1,5 +1,3 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -83,7 +81,7 @@ nav span.icon-bar {
 }
 
 .showcase p{
-	width: 80%;
+	width: 90%;
 }
 
 .showcase {
@@ -109,7 +107,7 @@ nav span.icon-bar {
 	margin-bottom: 0px;
 }
 
-.about {
+.about, .adventures {
 	margin-bottom: 10%;
 	margin-top: 50px;
 }
@@ -140,7 +138,7 @@ footer {
 		font-size: 63px;
 	}
 
-	.contact {
+	.contact, .adventures {
 		padding-top: 50px;
 	}
 
