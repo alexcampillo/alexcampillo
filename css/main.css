@@ -113,7 +113,7 @@ nav span.icon-bar {
 }
 
 .about-jumbotron {
-	background: url('../img/alex.jpg') bottom fixed;
+	background: url('../img/alex.jpg') bottom center;
 	background-color: transparent;
 	height: 70vh;
 	padding-top: 50px;
