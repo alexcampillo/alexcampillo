@@ -80,6 +80,11 @@ nav span.icon-bar {
 	background-color: #282828;
 }
 
+.arrow-down {
+	color: black;
+	margin-top: 40px;
+}
+
 .showcase p{
 	width: 90%;
 }
