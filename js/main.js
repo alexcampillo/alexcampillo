@@ -30,7 +30,7 @@ $(document).ready(function() {
 
 	$('.instagram-lite').instagramLite({
     clientID: '4df48b15477149b5a4a0d60c9df64566',
-    username: 'yourusername',
+    username: '_alexcampillo',
     limit: 6,
     urls: 'true'
 	});
