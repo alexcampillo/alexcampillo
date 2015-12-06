@@ -28,17 +28,23 @@ $(document).ready(function() {
 		galleryFadeOut: 300          /* fadeOut speed before slide is loaded */
 	});
 
-	$('.instagram').on('willLoadInstagram', function(event, options) {
-    console.log(options);
-  });
-  $('.instagram').on('didLoadInstagram', function(event, response) {
-    console.log(response);
-  });
-  $('.instagram').instagram({
-    userId: 1811534762,
-    clientId: '4df48b15477149b5a4a0d60c9df64566',
-    count: 6,
-    accessToken: '009786d2069344bfa47379e7f0074820'
-  });
+  $('.instagram-lite').instagramLite({
+        clientID: '4df48b15477149b5a4a0d60c9df64566',
+        username: '_alexcampillo',
+        list: false,
+        urls: false,
+        load_more: '.load-more',
+        success: function() {
+            console.log('The request was successful!');
+        },
+        error: function(errorCode, errorMessage) {
+
+            console.log('There was an error with the request');
+
+            if(errorCode && errorMessage) {
+                console.log(errorCode +': '+ errorMessage);
+            }
+        }
+    });
 
 });
