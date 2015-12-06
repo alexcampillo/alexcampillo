@@ -125,11 +125,11 @@ nav span.icon-bar {
 	PORTFOLIO IMAGE OVERLAY
 ==========================================================*/
 
-.image {
+/*.image {
     position:relative;
     width:200px;
     height:200px;
-}
+}*/
 .image img {
     width:100%;
     vertical-align:top;
