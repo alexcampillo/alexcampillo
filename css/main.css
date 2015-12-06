@@ -31,6 +31,14 @@ h1 {
 	font-size: 63px;
 }
 
+.social a {
+	color: #262626;
+}
+
+.social a:hover {
+	color: #eee;
+}
+
 .jumbotron {
 	background-color: #fff;
 	display: block;
