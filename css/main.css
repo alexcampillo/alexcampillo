@@ -154,7 +154,7 @@ nav span.icon-bar {
     bottom:0;
     padding:4px 10px;
     text-align:center;
-    background:red;
+    /*background:red;*/
     box-sizing:border-box;
     -moz-box-sizing:border-box;
 }
